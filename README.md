@@ -1,4 +1,4 @@
-# toolbox
+# :wrench: toolbox
 A compilation of useful resources, links, and shortcuts for learning web development.
 
 ### 0. Getting Started
@@ -18,13 +18,13 @@ Text editors is where you'll be spending most of your time doing the heavy lifti
 
 ###### Understanding the Command Line
 
-The command line is one of the most powerful tools that you'll have at your disposal while being a developer. Interacting with your machine and your files at a low level is powerful, and you can do alot of neat stuff inside a command line!
+The command line is one of the most powerful tools that you'll have at your disposal while being a developer. Interacting with your machine and your files at a low level is powerful, and you can do a lot of neat stuff inside a command line!
 
 Let's break this out into operating systems!
 
 1. Unix based (Mac OSX & Linux). [Unix based machines](https://www.wikiwand.com/en/Unix) are pretty neat and use a [shell](https://www.wikiwand.com/en/Unix_shell) to interact with the files on a computer in an intimate, low level way. TLDR: You can do cool stuff in the shell that would take hours, days, weeks, to do by hand.
   * OSX - Terminal
-    * What the heck is the terminal? (Here's an article that talks a little about it)[http://www.macworld.co.uk/feature/mac-software/how-use-terminal-on-mac-3608274/].
+    * What the heck is the terminal? [Here's an article that talks a little about it](http://www.macworld.co.uk/feature/mac-software/how-use-terminal-on-mac-3608274/).
   * Linux - Command line interface (CLI)
     * What is a CLI? [Here's a quick article explaining what it is](https://www.linux.com/learn/how-use-linux-command-line-basics-cli).
 
@@ -32,6 +32,14 @@ Let's break this out into operating systems!
   * [Gitbash](https://git-for-windows.github.io/) - Recommended
   * [Cygwin](https://www.cygwin.com/)
 
+We'll be interacting with `git` through the command line. Doing so allows us to have exact control over manipulating the versions of our code, and ensuring that when working collaboratively with others, the code that you're working on doesn't conflict with another developer. We'll talk more about `git` in a bit!
+
+Here are some of the most used commands that you'll find yourself using as your interact with the command line more and more.
+
+* `cd` - **C**hange **D**irectory, to switch between the different folders that live on your machine.
+> :bulb: The `~` represents your **home** directory. You can navigate here with either `cd` or `cd ~`. If you don't specify a directory, `cd` will default to home. The home directly is normally where a bunch of your default files directories will live, like `Downloads`, `Desktop`, `Documents`, etc.
+* `pwd` - **P**rint **W**orking **D**irectory, prints the current directory that your terminal window is in.
+* `ls` - **Li**sts the files in your current working directory.
 
 
 ### Resources
