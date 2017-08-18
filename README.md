@@ -1,6 +1,8 @@
 # :wrench: toolbox
 A compilation of useful resources, links, and shortcuts for learning web development.
 
+_**Work in Progress**_
+
 ### 0. Getting Started
 So you want to learn how to do web development? Well, you've (hopefully) come to the right place! Let's jump right in.
 
